@@ -29,7 +29,7 @@ export default {
   methods: {
     getCommits() {
       fetch(
-        `${BASE_URL}/projects/7559/repository/commits?private_token=zAw5-XwKyMhRkQJuQ4fQ&all=true&per_page=100`
+        `${BASE_URL}/projects/7559/repository/commits?private_token=&all=true&per_page=100`
       )
         .then(res => {
           return res.json();
