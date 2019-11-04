@@ -39,7 +39,7 @@ export default {
     };
   },
   created() {
-    this.getRepositories("Taylous", "J7kwFVv-7zWVHD3_zuU1", "blue");
+    this.getRepositories("Taylous","", "blue");
   },
   methods: {
     onScroll(e) {
