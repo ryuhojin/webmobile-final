@@ -2,11 +2,11 @@
   <div>
     <v-card flat>
       <div class="page center">
-        <a v-on:click="initiateUserRepo('Taylous', 'zAw5-XwKyMhRkQJuQ4fQ')" class="link mx-3">김창윤</a>
-        <a v-on:click="initiateUserRepo('ryuhojin', 'y4eoDG8jQ29sSs9_mpF2')" class="link mx-3">류호진</a>
-        <a v-on:click="initiateUserRepo('blackmonkey9256', 'HdXsmvT6hBR-mFJyN_YP')" class="link mx-3">이석원</a>
-        <a v-on:click="initiateUserRepo('hyeonjin23', 'kWsKbLKaDydDKBgguZnL')" class="link mx-3">조현진</a>
-        <a v-on:click="initiateUserRepo('Eomazing', 'phLEf4A8LuBfkhsotEwg')" class="link mx-3">엄윤주</a>
+        <a v-on:click="initiateUserRepo('Taylous', '')" class="link mx-3">김창윤</a>
+        <a v-on:click="initiateUserRepo('ryuhojin', '')" class="link mx-3">류호진</a>
+        <a v-on:click="initiateUserRepo('blackmonkey9256', '')" class="link mx-3">이석원</a>
+        <a v-on:click="initiateUserRepo('hyeonjin23', '')" class="link mx-3">조현진</a>
+        <a v-on:click="initiateUserRepo('Eomazing', '')" class="link mx-3">엄윤주</a>
       </div>
 
       <v-tabs-items v-model="tab">
